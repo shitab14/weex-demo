@@ -19,3 +19,8 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+-keep class org.apache.weex.bridge.** { *; }
+-keep class org.apache.weex.layout.** { *; }
+-keep class org.apache.weex.WXSDKEngine { *; }
+-keep class org.apache.weex.base.SystemMessageHandler { *; }
+-dontwarn org.apache.weex.bridge.**
